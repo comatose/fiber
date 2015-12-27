@@ -1,0 +1,1 @@
+Program("test_fiber", Glob("*.cpp"), CXX="clang++", CXXFLAGS="-std=c++1y -g", CPPPATH="/home/comatose/src/Catch/include", LIBS="boost_context")
